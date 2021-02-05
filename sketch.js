@@ -71,7 +71,6 @@ function draw() {
   //trex.debug = true;
   background(255);
   text("Score: "+ score, 500,50);
-  camera.position.x=ground.x;
   
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
@@ -117,7 +116,7 @@ function draw() {
     }
   }
   
-  camera.position.x;
+  
   drawSprites();
 }
 
